@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Règlement – Serious RP</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/page-flip/dist/css/page-flip.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="fire-overlay"></div>
+
+<div class="book-wrapper">
+  <div id="book">
+
+    <!-- COUVERTURE -->
+    <div class="page cover">
+      <h1>📜 Règlement Officiel</h1>
+      <p>Serveur RedM – Serious RP</p>
+      <span>Tournez la page</span>
+    </div>
+
+    <!-- SOMMAIRE -->
+    <div class="page sommaire">
+      <h2>📑 Sommaire</h2>
+      <ul>
+        <li onclick="goToPage(2)">Chapitre I — Principes Généraux</li>
+        <li onclick="goToPage(3)">Chapitre II — Règles RolePlay</li>
+        <li onclick="goToPage(4)">Chapitre III — Règles de Combat</li>
+        <li onclick="goToPage(5)">Chapitre IV — Règles Criminelles</li>
+        <li onclick="goToPage(6)">Chapitre V — Sanctions</li>
+      </ul>
+      <p class="hint">Cliquez sur un chapitre</p>
+    </div>
+
+    <!-- CHAPITRES -->
+    <div class="page">
+      <h2>Chapitre I</h2>
+      <h3>Principes Généraux</h3>
+      <p>RolePlay sérieux, réaliste et immersif.</p>
+      <p>Respect obligatoire envers tous.</p>
+    </div>
+
+    <div class="page">
+      <h2>Chapitre II</h2>
+      <h3>Règles RolePlay</h3>
+      <ul>
+        <li>PowerGaming ❌</li>
+        <li>MetaGaming ❌</li>
+        <li>No Fear RP ❌</li>
+      </ul>
+    </div>
+
+    <div class="page">
+      <h2>Chapitre III</h2>
+      <h3>Règles de Combat</h3>
+      <p>Gunfights justifiés RP uniquement.</p>
+      <p>New Life Rule appliquée.</p>
+    </div>
+
+    <div class="page">
+      <h2>Chapitre IV</h2>
+      <h3>Règles Criminelles</h3>
+      <p>Braquages préparés et cohérents.</p>
+      <p>Otages réels et demandes réalistes.</p>
+    </div>
+
+    <div class="page">
+      <h2>Chapitre V</h2>
+      <h3>Sanctions</h3>
+      <p>Avertissement, jail RP, ban.</p>
+      <p>L’ignorance n’excuse pas la faute.</p>
+    </div>
+
+  </div>
+</div>
+
+<audio id="pageSound" src="assets/page-flip.mp3"></audio>
+
+<script src="https://unpkg.com/page-flip/dist/js/page-flip.browser.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
